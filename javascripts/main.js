@@ -1,15 +1,16 @@
 "use strict";
 
-const solarSystem = require('./solarSystem');
+const solarSystem = require('./solarSystem.js');
 
-// document.getElementById('button').addEventListener('click', (event) => {
-// 	let languageSelected = event.target.id;
-// 	if (event.target.id ==='button') {
-// 		languageSelected = 'english';
-// 	} else {
-// 		languageSelected = event.target.id;
 
-// 	}
-// 	console.log(languageSelected);
-// 	document.getElementById("output").innerHTML = GreetingGenerator[languageSelected]();
-// });
+
+var home = document.getElementById("wholeSolarSystem");
+solarSystem.mercury(home);
+solarSystem.venus(home);
+solarSystem.earth(home);
+solarSystem.mars(home);
+solarSystem.jupiter(home);
+solarSystem.saturn(home);
+solarSystem.uranus(home);
+solarSystem.neptune(home);
+

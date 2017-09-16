@@ -13,6 +13,8 @@ const neptune = require('./neptune.js');
 
 const solarSystem = {
 
-	mercury, venus, earth, mars, jupiter, saturn, neptune
+	mercury, venus, earth, mars, jupiter, saturn, uranus, neptune
 
 };
+
+module.exports = solarSystem;

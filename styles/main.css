@@ -1,0 +1,14 @@
+li {
+	list-style: none;
+
+}
+
+ul {
+	border: 1px solid gray;
+}
+
+#wholeSolarSystem {
+	display: flex;
+	flex-wrap: wrap;
+	
+}
